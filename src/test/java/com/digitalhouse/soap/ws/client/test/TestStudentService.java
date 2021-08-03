@@ -17,7 +17,7 @@ public class TestStudentService {
 
         StudentDetailsRequest request = new StudentDetailsRequest();
         request.setName("Diogenes");
-        assertEquals("5", studentService.studentDetails(request).getStudent().getStandard());
+        assertEquals(5, studentService.studentDetails(request).getStudent().getStandard());
     }
 
 
